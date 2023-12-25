@@ -48,6 +48,9 @@ header {
 .menunav .nav:hover, .menunav .nav:focus {
     color: #404bbf;
 }
+.header-title{
+    padding: 24px 0;
+}
 address {
     font-style: normal;
 }
@@ -70,6 +73,8 @@ address {
 }
 .menuaddres {
     color: #434455;
+    display: flex;
+    gap: 40px;
 }
 .hero {
     background-color: #2e2f42;
