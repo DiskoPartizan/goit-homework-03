@@ -9,13 +9,12 @@ header {
     background-color: #E7E9FC;
     border-bottom: 1px solid #e7e9fc;
     }
-.header-logo {
-    display: flex;
-}
+
 .container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
+    display: flex;
 }
 .navigate {
     color: #2E2F42;
