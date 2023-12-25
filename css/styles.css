@@ -115,6 +115,8 @@ h1 {
 }
 .visually-hidden {
     position: absolute;
+    overflow: hidden;
+
 }
 .list-strategy {
     display: flex;
