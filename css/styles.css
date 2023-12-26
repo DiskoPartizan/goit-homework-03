@@ -112,10 +112,19 @@ h1 {
 .section-strategy {
     padding: 120px 0;
 }
-.hh-strategy {
+.hh-strategy  {
     color: #2E2F42;
 }
- 
+ .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    border: 0;
+ }
 .list-strategy {
     display: flex;
     gap: 24px;
@@ -266,7 +275,4 @@ a {
 }
 img {
     display: block;
-}
-.visually-hidden {
-    overflow: hidden;
 }
