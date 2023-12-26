@@ -42,7 +42,6 @@ header> .container{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 24px 0;
 }
 .menunav{
     display: flex;
@@ -121,7 +120,7 @@ h1 {
     gap: 24px;
 }
 .list-item-strategy {
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 3*24px) / 4);
 }
 .h-strategy {
     color: #2E2F42;
@@ -204,7 +203,7 @@ h1 {
     row-gap: 48px;
 }
 .portfolio-list-item {
-    width: calc((100% - 2*24px) / 3);
+    width: calc((100% - 2*24px) / 6);
 }
 .portfokio-app {
     padding: 32px 16px;
