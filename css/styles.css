@@ -253,6 +253,7 @@ h1 {
 }
 .studio-footer {
     color: #f4f4fd;
+    display: inline-block;
 }
 ul {
     list-style: none;
