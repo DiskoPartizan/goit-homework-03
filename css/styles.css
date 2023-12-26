@@ -157,7 +157,7 @@ h1 {
 }
 .mark-team {
     background-color: #FFFFFF;
-    width: calc((100% - 74px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 .mark-div {
@@ -241,14 +241,14 @@ h1 {
 .web-footer {
     display: inline-block;
     color: #4D5AE5;
-        font-family: 'Raleway', sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        margin-right: 76px;
-        margin-bottom: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-right: 76px;
+    margin-bottom: 16px;
 }
 .studio-footer {
     color: #f4f4fd;
