@@ -14,7 +14,6 @@ header {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
-    display: flex;
 }
 .navigate {
     color: #2E2F42;
@@ -256,6 +255,7 @@ h1 {
 }
 ul {
     list-style: none;
+    display: flex;
 }
 a {
     text-decoration: none;
