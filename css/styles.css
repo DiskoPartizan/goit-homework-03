@@ -76,7 +76,7 @@ address {
     display: flex;
     gap: 40px;
 }
-.hero {
+main> .section {
     background-color: #2e2f42;
     padding: 188px 0;
 }
@@ -109,8 +109,11 @@ h1 {
 .hero .button-order:hover, .hero .button-order:focus {
     background-color: #404BBF;
 }
-.section-strategy {
+.section {
     padding: 120px 0;
+    background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .hh-strategy {
     color: #2E2F42;
@@ -137,10 +140,6 @@ h1 {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-.section-tree {
-    background-color: #F4F4FD;
-    padding: 120px 0;
 }
 .hour-team {
     color: #2E2F42;
@@ -183,10 +182,6 @@ h1 {
     letter-spacing: 0.02em;
     text-align: center;
 }
-.our-portfolio {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
 .portfolio {
     color: #2E2F42;
     text-align: center;
@@ -204,7 +199,7 @@ h1 {
     row-gap: 48px;
 }
 .portfolio-list-item {
-    width: calc((100% - 2*24px) / 3);
+    width: calc((100% - 48px) / 3);
 }
 .portfokio-app {
     padding: 32px 16px;
